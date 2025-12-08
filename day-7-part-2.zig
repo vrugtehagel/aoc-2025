@@ -29,7 +29,7 @@ pub fn solution(input: []const u8) u64 {
 }
 
 pub fn main() !void {
-    const input = @embedFile("./aoc-2025-assets/day-7/input.txt");
+    const input = @embedFile("./aoc-2025-assets/day-7/example.txt");
     const answer = solution(input);
     std.debug.print("{d}\n", .{answer});
 }
