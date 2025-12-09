@@ -26,4 +26,8 @@ pub fn main() void {
     _ = @import("day-7-part-2.zig");
 
     _ = @import("day-8-part-1.zig");
+    _ = @import("day-8-part-2.zig");
+
+    _ = @import("day-9-part-1.zig");
+    _ = @import("day-9-part-2.zig");
 }
